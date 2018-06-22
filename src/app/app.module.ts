@@ -16,6 +16,7 @@ import { TableComponent } from './table/table.component';
 import { Q2Component } from './q2/q2.component';
 import { RespAreaComponent } from './resp-area/resp-area.component';
 import { Q3Component } from './q3/q3.component';
+import { InfoComponent } from './info/info.component';
 
 
 
@@ -24,7 +25,9 @@ import { Q3Component } from './q3/q3.component';
 const routes: Routes = [
   { path: 'q2', component: Q2Component },
   { path: 'q1', component: TableComponent },
-  { path: 'q3', component: Q3Component }
+  { path: 'q3', component: Q3Component },
+  { path: 'info', component: InfoComponent }
+
 
 ];
 @NgModule({
@@ -35,6 +38,7 @@ const routes: Routes = [
     Q2Component,
     RespAreaComponent,
     Q3Component,
+    InfoComponent,
     
 
   ],
